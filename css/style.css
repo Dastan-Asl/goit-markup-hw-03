@@ -118,8 +118,7 @@ a {
 .intro {
   background: var(--dark-background-color);
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px 0;
 }
 
 h1 {
@@ -151,8 +150,14 @@ button {
   background: var(--accent-color);
 }
 
+.about-details {
+  display: flex;
+  padding: 94px 0;
+}
+
 .about-us {
   background: var(--white-color);
+  padding-bottom: 94px;
 }
 
 .menu-about-us li:not(:last-child) {
@@ -167,7 +172,6 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 94px 0;
 }
 
 .menu {
@@ -208,12 +212,11 @@ button {
 .our-photo {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 
 .our-team {
   background: var(--second-backgroud-color);
-  padding: 94px;
+  padding: 94px 0;
 }
 
 .team {
@@ -232,7 +235,7 @@ button {
   justify-content: space-between;
 }
 
-.team-photo li>img {
+.team-photo li > img {
   margin-bottom: 30px;
 }
 
@@ -317,7 +320,6 @@ footer p {
   text-align: center;
   padding: 6px 22px;
   border-radius: 4px;
-  margin: 94px auto 50px;
 }
 
 .bttn a:hover,
@@ -345,11 +347,14 @@ footer p {
   align-items: center;
 }
 
+.portfolio-card li {
+  margin-bottom: 30px;
+}
+
 .portfolio-card {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 50px;
 }
 
 .portfolio-card h2 {
@@ -357,7 +362,7 @@ footer p {
 }
 
 .portfolio-card p {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .portfolio {
@@ -369,3 +374,23 @@ footer p {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
+.container-portfolio {
+  background: var(--white-color);
+  border: 1px solid #EEEEEE;
+}
+
+.portfolio-card li.no-margin {
+  margin: 0;
+}
+
+.nav-container {
+  margin-bottom: 56px;
+}
+
+#portfolio {
+  padding: 94px 0;
+}
+
+
+

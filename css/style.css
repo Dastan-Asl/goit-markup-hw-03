@@ -15,6 +15,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 25px 0;
+  border-bottom: 1px solid var(--header-border-color) ;
 }
 
 .header-nav {
@@ -43,6 +44,7 @@
   --background-color: #e5e5e5;
   --second-backgroud-color: #f5f4fa;
   --footer-color: rgba(255, 255, 255, 0.6);
+  --header-border-color: #ECECEC;
 }
 
 a {
@@ -358,11 +360,7 @@ footer p {
 }
 
 .portfolio-card h2 {
-  margin: 20px auto 4px;
-}
-
-.portfolio-card p {
-  padding-bottom: 20px;
+  margin-bottom: 4px;
 }
 
 .portfolio {
@@ -390,6 +388,10 @@ footer p {
 
 #portfolio {
   padding: 94px 0;
+}
+
+.description {
+  padding: 20px 24px;
 }
 
 
